@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 50%;
+}
+
+header{
+    background-color: #FDBC41;
+    padding: 30px;
+}
+
+.price-section{
+    background-color: #D23359;
+    color: white;
+    padding: 30px;
+}
+
+.price-section h4{
+    display: block;
+}
