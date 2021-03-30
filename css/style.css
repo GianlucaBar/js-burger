@@ -23,6 +23,80 @@ header{
     padding: 30px;
 }
 
+.option-section{
+    padding: 30px;
+}
+
 .price-section h4{
     display: block;
+}
+
+#burger-name{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 0;
+}
+
+
+.option-section h4{
+    padding: 30px 0;
+    font-size: 17px;
+}
+
+.option-section ul{
+    list-style-type: none;
+}
+
+.option-section ul li{
+    padding-bottom: 30px;
+}
+
+.option-container{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.list-col-right{
+    padding-left: 100px;
+}
+
+.option-item{
+    display: flex;
+    align-items: center;
+}
+
+.option-item img{
+    width: 50px;
+}
+
+.checkbox-input{
+    padding-left: 10px;
+}
+
+.discount-container{
+    padding: 30px 0;
+}
+
+#discount-input{
+    width: 60%;
+    border: none;
+    padding: 5px 2px;
+    background-color: #FFF4E2;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#calc-btn{
+    background-color: #FDBC41;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #a3792c;
+    border-radius: 3px;
+}
+
+.btn-container{
+    text-align: center;
 }
