@@ -1,3 +1,6 @@
+/* ==========
+COMMON
+========== */
 *{
     padding: 0;
     margin: 0;
@@ -6,8 +9,12 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #FFF4E2;
 }
 
+/* ==========
+STRUCTURE
+========== */
 .wrapper{
     width: 50%;
 }
@@ -25,12 +32,14 @@ header{
 
 .option-section{
     padding: 30px;
+    background-color: white;
 }
 
-.price-section h4{
-    display: block;
-}
+/* ==========
+OPTIONS SECTION
+========== */
 
+/* nome burger  */
 #burger-name{
     border: none;
     font-size: 20px;
@@ -38,7 +47,7 @@ header{
     padding-left: 0;
 }
 
-
+/* sezione opzioni checkboxes  */
 .option-section h4{
     padding: 30px 0;
     font-size: 17px;
@@ -76,6 +85,7 @@ header{
     padding-left: 10px;
 }
 
+/* blocco discount coupon  */
 .discount-container{
     padding: 30px 0;
 }
@@ -100,4 +110,18 @@ header{
 
 .btn-container{
     text-align: center;
+}
+
+/* ==========
+PRICE SECTION
+========== */
+.price-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-container h4,
+.price-container span{
+    font-size: 30px;
+    font-weight: 700;
 }
